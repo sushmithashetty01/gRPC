@@ -26,6 +26,8 @@ Implementation:
    output:
    enter username: [your name]
    enter message: [your message]
+   
+   
    Result will be displayed on terminal
    
 
