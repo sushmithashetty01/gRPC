@@ -20,7 +20,9 @@ Implementation:
 3. Command to generate the stub -
 
    python -m grpc_tools.protoc -I./proto --python_out=. --grpc_python_out=. ./proto/bidirectional.proto
+   
    file generated
+   
        . bidirectional_pb2.py
        . bidirectional_pb2_grpc.py
        
