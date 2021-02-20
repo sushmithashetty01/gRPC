@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package grpc;
+
+message Message {
+    string name = 1;
+    string message = 2;
+}
+
+service BidirectionalServer {
+    rpc BidirectionalStream (stream Message) returns (stream Message);
+}
