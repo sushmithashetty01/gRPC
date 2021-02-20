@@ -29,7 +29,8 @@ Implementation:
 4. Implementing server and client -
   
    Run --> python client.py
-   output:
+   
+   output
             . enter username: [your name]
             . enter message: [your message]
    
