@@ -30,7 +30,8 @@ Implementation:
   
    Run --> python client.py
    
-   output
+   output:
+   
             . enter username: [your name]
             . enter message: [your message]
    
