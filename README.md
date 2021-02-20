@@ -6,21 +6,25 @@ Prerequisites:
 
 Implementation:
 
-1. Create a proto file
+1. Create a proto file -
+
     bidirectional.proto 
 
-2. Install dependencies
+2. Install dependencies -
+
    virtualenv venv
    source venv/Scripts/activate
    pip install grpcio
    pip install grpcio-tools
 
-3. Command to generate the stub
+3. Command to generate the stub -
+
    python -m grpc_tools.protoc -I./proto --python_out=. --grpc_python_out=. ./proto/bidirectional.proto
    file generated
        . bidirectional_pb2.py
        . bidirectional_pb2_grpc.py
-4. Implementing server and client
+       
+4. Implementing server and client -
   
    Run --> python client.py
    output:
